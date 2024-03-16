@@ -27,7 +27,7 @@ document.getElementById('formulario').addEventListener('submit', (event) => {
         errorNombre.classList.add('error-message')
     }else {
         errorNombre.textContent = ''
-        console.log(errorNombre)
+        //console.log(errorNombre)
         errorNombre.classList.remove('error-message')
     }
 
